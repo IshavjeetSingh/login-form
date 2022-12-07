@@ -1,0 +1,90 @@
+<html>
+<head>
+<title> form </title>
+<style>
+div {
+  width: 300px;
+  border: 15px solid white;
+  padding: 50px;
+  margin: 20px;
+background: #33fff7; 
+}
+</style>
+</head>
+<body bgcolor= "yellow">
+<h1 align = "center"> Student Login Form </h1>
+<center>
+<form action="/signup" method="POST">
+<div>
+<p>
+<label> title </label>
+<label>
+<input type="radio" name = "title" value = "mr">
+Mr
+</label>
+<label>
+<input type = "radio" name = "title" value="mrs">
+Mrs
+</label>
+<label>
+<input type = "radio" name = "title" value = "miss">
+Miss
+</label>
+</p>
+<p>
+<label> First name </label>
+<input type = "text" placeholder = "first_name">
+</p>
+<p>
+<label> last name </label>
+<input type = "text" placeholder = "last_name">
+</p>
+<p>
+<label> Email </label>
+<input type = "email" placeholder = "email">
+</p>
+<p>
+<label> Phone number </label>
+<input type = "tel" placeholder = "phone">
+</p>
+<p>
+<label> Password </label>
+<input type="password" placeholder="password">
+</p>
+<p>
+<label> confirm your password </label>
+<input type = "password" placeholdeer = "password_confirm">
+</p>
+<p><label>Date of birth</label>
+<input type="date"></p>
+<p>
+<label> country </label>
+<select>
+<option> India </option>
+<option> France </option>
+<option> Russia </option>
+<option> United States </option>
+<option> United Kingdom </option>
+<option> Another </option>
+</select>
+</p>
+<p>
+<label> Language </label> <input type = "checkbox" name="language" value="english"> I know english 
+<input type="checkbox" value = "french">
+I know french </p>
+<p> <label> Additional Information </label>
+<textarea maxlength="100" rows = "5" cols = "30">Enter here</textarea>
+</p>
+<p><label>Upload your file</label>
+<input type="file"></p>
+<p>
+<label>
+<input type = "checkbox" value = "terms">
+I agree to the <a href = "/hii"> terms and conditions </a>
+</label>
+</p>
+<button style = "background-color:greenyellow;
+<input type = "submit" value="Submit"> submit</p></button>
+</form> </center>
+</div>
+</html>s
